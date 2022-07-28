@@ -7,7 +7,7 @@ const timerTrigger: AzureFunction = async function (context: Context, myTimer: a
     {
         context.log('Timer function is running late!');
     }
-    context.log('Timer trigger function ran!', timeStamp);   
+    context.log('Hey its me binkj!!!!!', timeStamp);   
 };
 
 export default timerTrigger;
