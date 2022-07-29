@@ -7,9 +7,14 @@
     "watch": "tsc -w",
     "prestart": "npm run build",
     "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "ping": "node dist/PollRPDActiveCalls/tempserver.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@types/jsdom": "^20.0.0",
+    "axios": "^0.27.2",
+    "jsdom": "^20.0.0",
+    "twitter-api-sdk": "^1.1.0"
+  },
   "devDependencies": {
     "@azure/functions": "^3.0.0",
     "@types/node": "16.x",
